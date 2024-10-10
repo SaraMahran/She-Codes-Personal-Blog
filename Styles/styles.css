@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap");
+@import url("./blog-post.css");
+@import url("./design-system.css");
+@import url("./home.css");
+@import url("./subscribe.css");
+@import url("./follow.css");
+
+:root {
+  --light-pink-color: #d94b58;
+  --light-turquoise: #044855;
+  --dark-turquoise: #022e39;
+  --purple: #793f4e;
+  --nude: #e3bc9a;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Fredoka", sans-serif;
+}
+
+body {
+  background: linear-gradient(var(--nude), var(--light-pink-color));
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  grid-template-rows: 1fr;
+  grid-gap: 150px;
+  margin: 0;
+}

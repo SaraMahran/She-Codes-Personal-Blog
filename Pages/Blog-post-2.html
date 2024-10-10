@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../Styles/blog-post.css" />
+    <title>Abstraction in Software Engineering</title>
+  </head>
+  <body>
+    <header>
+      <a href="./index.html">Back to Home</a>
+      <h1 class="blog-title">Abstraction in Software Engineering</h1>
+      <section class="author-card">
+        <img
+          src="https://www.shutterstock.com/image-vector/black-woman-smiling-portrait-vector-600nw-2281497689.jpg"
+          alt="author avatar"
+        />
+        <div class="author-info">
+          <p class="author-name">Sara Ali Mahran</p>
+          <p class="author-description">Software Engineer</p>
+        </div>
+      </section>
+    </header>
+    <main>
+      <blockquote>
+        "All problems in computer science can be solved by another abstraction"
+      </blockquote>
+      <p>
+        In software engineering, <b>abstraction </b>is a fundamental concept
+        that simplifies complex systems by hiding unnecessary details, allowing
+        developers to focus on the essential aspects of a problem or system.
+        It’s a way of managing complexity, making it easier to understand,
+        design, and maintain software systems.
+      </p>
+      <img src="../Assets/abstraction.jpg" alt="React native vs Flutter" />
+      <figcaption>Abstraction in Computer Science</figcaption>
+
+      <h2>Why is Abstraction Important?</h2>
+      <p>Abstraction helps to:</p>
+
+      <ul>
+        <li>
+          <b>Simplify complex systems:</b> By focusing on what a system does
+          rather than how it does it, developers can handle large systems more
+          easily.
+        </li>
+        <li>
+          <b>Improve code readability:</b> Abstracting details makes code easier
+          to read and maintain by separating high-level operations from
+          low-level details.
+        </li>
+        <li>
+          <b>Promote code reusability: </b> When common functionalities are
+          abstracted, they can be reused across different parts of the program
+          or even in different projects.
+        </li>
+        <li>
+          <b>Enhance maintainability: </b> Abstracting certain operations
+          ensures that if something changes in the system, the changes are
+          isolated, making maintenance easier.
+        </li>
+      </ul>
+      <h3>Levels of Abstraction</h3>
+      <ol>
+        <li>
+          <b>High-level abstraction: </b> This involves focusing on broad,
+          system-level functionalities. For example, describing an object like
+          "Car" without worrying about its internal components such as the
+          engine or transmission.
+        </li>
+        <li>
+          <b>Low-level abstraction:</b> Here, the focus is on the detailed,
+          underlying mechanisms. For instance, within the "Car" object,
+          low-level abstraction would deal with how the engine or transmission
+          works.
+        </li>
+      </ol>
+
+      <h3>Examples of Abstraction in Software</h3>
+      <ol>
+        <li>
+          <b>Object-Oriented Programming (OOP):</b> In OOP, abstraction is
+          achieved through classes and objects. A class like Car abstracts the
+          idea of a car without detailing its internal parts. Methods like
+          <code>startEngine()</code> or <code>accelerate()</code> describe what
+          the car does, without explaining how each part of the car works.
+        </li>
+        <li>
+          <b>APIs: </b> HWhen using an API, developers don’t need to know how
+          the internal server processes data. They only need to understand the
+          functions the API exposes, such as <code>getUser()</code> or
+          <code>sendPayment()</code>, which abstract away the internal workings.
+        </li>
+        <li>
+          <b>File Systems: </b> When you interact with files on your computer,
+          you think in terms of creating, reading, or writing to a file. The
+          complexity of how the data is stored on the hard drive, or how the
+          file system organizes it, is abstracted away.
+        </li>
+      </ol>
+      <h4>Conclusion</h4>
+      <p>
+        Abstraction is a powerful tool in software engineering that helps to
+        manage complexity by focusing on the essential details while hiding the
+        irrelevant ones. It allows developers to build systems that are easier
+        to understand, maintain, and scale. Whether it's in programming
+        languages, APIs, or system design, abstraction is at the heart of
+        effective software development.
+      </p>
+    </main>
+    <footer>
+      <p>© 2024 Sara Ali Mahran. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
