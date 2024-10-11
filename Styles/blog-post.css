@@ -1,5 +1,5 @@
 @import url("./styles.css");
-@import url("./home.csss");
+@import url("./home.css");
 
 body {
   background: linear-gradient(var(--nude), var(--light-pink-color));
