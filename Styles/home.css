@@ -15,32 +15,27 @@
   margin: 20px;
 }
 
-.sidebar ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  width: 100%;
-}
-
 .sidebar ul li {
   padding: 15px;
-  position: relative;
 }
 
-.sidebar ul li a {
+.sidebar ul li a,
+.blog-post a {
   text-decoration: none;
   color: var(--dark-turquoise);
   transition: transform 0.3s ease;
   padding: 10px;
   display: block;
   font-size: 18px;
+  width: 100%;
 }
 
 .sidebar ul li a:hover {
   transform: translateY(-5px);
 }
 
-.sidebar ul li .follow-btn {
+.sidebar ul li .follow-btn,
+.blog-post a {
   background-color: var(--dark-turquoise);
   color: var(--nude);
   width: 80px;
@@ -58,16 +53,6 @@
   border-radius: 15px;
 }
 
-.blog-post a {
-  background-color: var(--dark-turquoise);
-  color: var(--nude);
-}
-
-.blog-post a:hover,
-.sidebar ul li a:hover {
-  transform: translateY(-5px);
-}
-
 main {
   align-self: start;
   margin-top: 100px;
@@ -82,7 +67,7 @@ main p {
 
 .about-blog {
   font-size: 23px;
-  margin-left: 5px;
+  margin-left: -4px;
   color: var(--purple);
 }
 
@@ -98,7 +83,7 @@ span {
   text-align: center;
   margin-right: 60px;
   margin-top: 50px;
-  padding-left: 10px;
+  padding-left: 100px;
   padding-right: 10px;
 }
 
@@ -118,10 +103,19 @@ span {
   color: var(--dark-turquoise);
 }
 
+.blog-posts .blog-post a {
+  width: 60%;
+  text-align: center;
+  margin: auto;
+}
+
+.blog-posts .blog-post a:hover {
+  transform: translateY(-5px);
+}
+
 footer {
   border: 5px solid var(--dark-turquoise);
   display: block;
-  width: 100%;
   border-radius: 15px;
   margin: 10px auto;
   text-align: center;
